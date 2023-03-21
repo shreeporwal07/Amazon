@@ -6,9 +6,15 @@
 }
 .home_image{
     width: 100%;
-    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
-    z-index:-1;
+    /* mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)); */
     margin-bottom: -300px;
+    background-image: url("https://m.media-amazon.com/images/I/51DWgNo1fdL._SX3000_.jpg");
+    height: 500px;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: flex-end;
+    border: none;
 }
 .home_row{
     display: flex;
@@ -16,9 +22,12 @@
     margin-left: 5px;
     margin-right: 5px;
     justify-content: center;
+    width: 100%;
 }
-/* .fade_bottom{
-    z-index:-1;
-    height :7.4rem;
-    background-image:linear-gradient(180deg,transparent,rgba(37,37,37,0.5),#111);
-} */
+.fade_bottom{
+    height :250px;
+    width: 100%;
+    background:linear-gradient(to bottom, rgba(234,237,237,0),rgba(234,237,237,1));
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}

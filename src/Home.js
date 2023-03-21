@@ -5,11 +5,10 @@ import Product from "./Product";
 function Home() {
   return (
     <div className="home">
-      <img
-        src="https://m.media-amazon.com/images/I/51DWgNo1fdL._SX3000_.jpg"
+      <div
         className="home_image"
-        alt=""
-      />
+      >
+      <div className="fade_bottom"></div></div>
       <div className="home_row">
         <Product
           id="12321341"

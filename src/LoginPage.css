@@ -1,0 +1,96 @@
+.loginlogo{
+    width: 100%;
+    object-fit: contain;
+    position: center;
+    height: 80px;
+    padding-top: 5px;
+    margin-bottom: -40px;
+}
+.loginbutton{
+    background-color: #f0c24b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #111;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.loginbutton:hover{
+    background-color: #e8b23e;
+}
+.passin{
+    height: 25px;
+    padding: 3px 7px;
+    line-height: normal;
+    border-radius: 4px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    outline: 0;
+    box-shadow: 0 2px 0 rgba(255,255,255,.5), 0 2px 0 rgba(0,0,0,.07);
+}
+.forgetpass{
+    display: flex;
+    justify-content: space-between;
+}
+.privacynote{
+    font-size: 13px;
+}
+.checkbox{
+    font-size: 14px;
+    font-weight: 400;
+}
+.check{
+    display: flex;
+}
+.newAmaz{
+    color: #9a9a9a;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+.break{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.line{
+    width: 30%;
+    color: #9a9a9a;
+}
+.accbutton{
+    background-color: #e7e9ec;
+    border: 1px solid;
+    border-color: #adb1b8 #a2a6ac #8d9096;;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #111;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.accbutton:hover{
+    background-color: #dddddd;
+}
+input:hover {
+    box-shadow: 0 1.5px 1px rgba(32, 32, 32, 0.3);
+  }
+.ffooter{
+    width: 30%;
+    margin: 0 auto;
+}
+.end{
+    width: 100%;
+    object-fit: contain;
+    position: center;
+    text-align: center;
+    font-size: small;
+}
+  

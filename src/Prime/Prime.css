@@ -1,0 +1,135 @@
+.prime{
+    background-color: #202b35;
+    height: 100%vh;
+}
+.div1{
+    background-image:linear-gradient(
+        to right,
+        #000 40%,
+        transparent 58%
+      ),url( https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    max-width: 100%;
+    min-height: 80vh;
+    background-position: right top;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+.welcome{
+    color: white;
+    position: center;
+    font-size: 2.0rem;
+    line-height: 3.1rem;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 0 0 48px;
+    box-sizing: inherit;
+    text-align: bottom;
+}
+.sib{
+    margin: auto 5px;
+    font-size: 24px;
+    background-color: #1d80b2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.sib:hover{
+    background-color: #3590bd;
+}
+.div2{
+    background-image:linear-gradient(
+        to left,
+        #000 40%,
+        transparent 58%
+      ),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    max-width: 100%;
+    min-height: 80vh;
+    background-position: left top;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+.rental{
+    color: white;
+    position: center;
+    font-size: 2.0rem;
+    line-height: 3.1rem;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 48px 0 0;
+    box-sizing: inherit;
+    text-align: bottom;
+}
+.sib2{
+    margin: auto 5px;
+    font-size: 24px;
+    background-color: #1d80b2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.sib2:hover{
+    background-color: #3590bd;
+}
+.div3{
+    background-image: url("Screenshot 2023-03-21 171012.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    max-width: 100%;
+    min-height: 80vh;
+    background-position: center;
+}
+.fs{
+    color: white;
+    position: center;
+    font-size: 1.5rem;
+    line-height: 3.1rem;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 48px 0 0;
+    box-sizing: inherit;
+    text-align: bottom;
+}
+.div4{
+    background-image:linear-gradient(
+        to left,
+        #000 40%,
+        transparent 58%
+      ),url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    max-width: 100%;
+    min-height: 80vh;
+    background-position: left top;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+.end{
+    width: 100%;
+    object-fit: contain;
+    position: center;
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
+.primelogo{
+    width: 100%;
+    object-fit: contain;
+    position: center;
+    height: 40px;
+    padding-top: 5px;
+    margin-bottom: -40px;
+}

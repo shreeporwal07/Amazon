@@ -1,6 +1,7 @@
 import React from 'react'
 import {GoThreeBars} from "react-icons/go"
 import './Subhead.css'
+import { Link } from 'react-router-dom'
 function Subhead() {
   return (
     <div className="subhead">
@@ -15,7 +16,7 @@ function Subhead() {
       <div className="subdata">Amazon Basics</div>
       <div className="subdata">Home Improvement</div>
       <div className="subdata">Coupons</div>
-      <img className="sub_ad" src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Farzi-Launch/400x39-SWM_NP._CB613859124_.jpg"/>
+      <Link to="/prime"><img className="sub_ad" src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Farzi-Launch/400x39-SWM_NP._CB613859124_.jpg"/></Link>
     </div>
   )
 }

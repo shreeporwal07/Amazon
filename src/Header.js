@@ -30,7 +30,7 @@ function Header() {
         <Link to="/" className="header_option"><p className="para">Returns</p>& Orders</Link>
         </div>
         <div className="header_link">
-        <Link to="/" className="header_option"><p className="para">Try</p>Prime</Link>
+        <Link to="/prime" className="header_option"><p className="para">Try</p>Prime</Link>
         </div>
         <div className="header_link">
         <Link to="/checkout" className="header_optionbasket"><ShoppingBasket className="basket"/><p className="parabasket">{basket?.length}</p></Link>
